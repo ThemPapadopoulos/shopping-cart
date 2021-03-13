@@ -1,2 +1,5 @@
 # shopping-cart
- jquery shopping-cart with functions. 
+ made with jquery & simple css.
+ shopping-cart with full functions. Made for fun. Modular. So that can be embedded to other projects easilly with minimum coding.
+           
+ press >proceed< to add item
