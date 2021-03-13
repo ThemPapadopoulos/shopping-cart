@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="cartIcon">
+      <img id="icon" src="shopping-cart-452-1163339.png" />
+      <span id="itemNum"></span>
+    </div>
+    <div id="cart" style="display: none">
+      <i id="collapse" class="fa fa-close">close</i>
+
+      <ol class="grid-container" id="itemList"></ol>
+
+      <footer id="cartFooter">
+        <button id="complete">
+          <a href="#" target="" rel="noopener noreferrer">proceed</a>
+        </button>
+        <button id="deleteCart">Delete Cart</button>
+      </footer>
+    </div>
+
+    <script src="jquery.js"></script>
+  </body>
+</html>
